@@ -1,0 +1,25 @@
+public class Fourwithouttemp {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 10; int b = 5; int c = 10; int d = 20;
+		System.out.println("Before Swapping");
+		System.out.println("a: "+a);
+		System.out.println("b: "+b);
+		System.out.println("c: "+c);
+		System.out.println("d: "+d);
+
+		a = a+b;
+		b = a-b;
+		a = a-b;
+		
+		c = c+d; 
+		d = c-d; 
+		c = c-d; 
+		
+		System.out.println("After Swapping");
+		System.out.println("a: "+a);
+		System.out.println("b: "+b);
+		System.out.println("c: "+c);
+		System.out.println("d: "+d);
+	}
+}
